@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "title": "价格",
+    "description": "选择方案，立即开始"
+  },
+  "page": {
+    "title": "我的 AI 工具站",
+    "sections": {
+      "pricing": {
+        "id": "pricing",
+        "title": "价格方案",
+        "description": "选择适合你的 AI 内容生成方案，开启高效创作之旅。",
+        "groups": [
+          {
+            "name": "monthly",
+            "title": "包月",
+            "is_featured": true,
+            "label": "推荐"
+          }
+        ],
+        "items": [
+          {
+            "title": "免费版",
+            "description": "适合体验 AI 内容生成，了解产品功能。",
+            "features_title": "包含",
+            "features": [
+              "每月 10 次 AI 生成额度",
+              "AI 文案生成",
+              "基础提示词生成",
+              "社区支持"
+            ],
+            "interval": "month",
+            "amount": 0,
+            "currency": "CNY",
+            "price": "免费",
+            "unit": "/ 月",
+            "is_featured": false,
+            "tip": "免费体验，开启 AI 创作之旅！",
+            "button": {
+              "title": "开始体验",
+              "url": "/sign-up",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "free",
+            "product_name": "免费版",
+            "credits": 10,
+            "valid_days": 30,
+            "group": "monthly",
+            "plan_name": "免费版"
+          },
+          {
+            "title": "创作者版",
+            "description": "适合个人创作者和文案从业者日常使用。",
+            "label": "热门",
+            "features_title": "包含免费版功能，此外",
+            "features": [
+              "每月 300 次 AI 生成额度",
+              "高级文案生成",
+              "高级提示词生成",
+              "营销内容模板",
+              "内容优化功能",
+              "优先技术支持"
+            ],
+            "interval": "month",
+            "amount": 9900,
+            "currency": "CNY",
+            "price": "¥99",
+            "unit": "/ 月",
+            "is_featured": true,
+            "tip": "最受欢迎的方案，适合大多数创作者。",
+            "button": {
+              "title": "立即升级",
+              "url": "#",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "creator",
+            "product_name": "创作者版",
+            "credits": 300,
+            "valid_days": 30,
+            "group": "monthly",
+            "plan_name": "创作者版"
+          },
+          {
+            "title": "团队版",
+            "description": "适合电商运营和小型团队协作使用。",
+            "features_title": "包含创作者版功能，此外",
+            "features": [
+              "每月 1500 次 AI 生成额度",
+              "团队协作功能",
+              "自定义模板",
+              "API 接口",
+              "专属客服",
+              "批量生成"
+            ],
+            "interval": "month",
+            "amount": 29900,
+            "currency": "CNY",
+            "price": "¥299",
+            "unit": "/ 月",
+            "is_featured": false,
+            "tip": "适合团队和企业用户。",
+            "button": {
+              "title": "联系开通",
+              "url": "mailto:zjutimes@gmail.com",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "team",
+            "product_name": "团队版",
+            "credits": 1500,
+            "valid_days": 30,
+            "group": "monthly",
+            "plan_name": "团队版"
+          }
+        ]
+      }
+    }
+  },
+  "messages": {
+    "current_plan": "当前方案",
+    "processing": "处理中"
+  }
+}

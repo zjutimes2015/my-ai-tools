@@ -1,0 +1,330 @@
+{
+  "page": {
+    "show_sections": [
+      "hero",
+      "introduce",
+      "scenes",
+      "usage",
+      "benefits",
+      "pricing",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "用 AI 快速生成高转化内容",
+        "highlight_text": "AI",
+        "description": "为自媒体创作者、电商运营、文案从业者和小团队打造的 AI 内容生成工具。几分钟生成朋友圈文案、短视频脚本、电商详情、公众号内容、营销话术和专业提示词。",
+        "announcement": {
+          "badge": "全新",
+          "title": "🎉 我的 AI 工具站",
+          "url": "/pricing"
+        },
+        "tip": "🎁 限时免费体验",
+        "buttons": [
+          {
+            "title": "立即开始创作",
+            "icon": "Zap",
+            "url": "/pricing",
+            "target": "_self",
+            "variant": "default"
+          },
+          {
+            "title": "查看功能",
+            "icon": "BookOpenText",
+            "url": "/#features",
+            "target": "_self",
+            "variant": "outline"
+          }
+        ],
+        "show_avatars": true,
+        "avatars_tip": "适合自媒体、电商、营销和职场内容创作场景",
+        "show_award": false,
+        
+        "background_image": {
+          "src": "/imgs/bg/tree.jpg",
+          "alt": "hero"
+        }
+      },
+      "logos": {
+        "title": "基于先进技术构建",
+        "items": [
+          {
+            "title": "Next.js",
+            "image": {
+              "src": "/imgs/logos/nextjs.svg",
+              "alt": "Next.js"
+            }
+          },
+          {
+            "title": "React",
+            "image": {
+              "src": "/imgs/logos/react.svg",
+              "alt": "React"
+            }
+          },
+          {
+            "title": "TailwindCSS",
+            "image": {
+              "src": "/imgs/logos/tailwindcss.svg",
+              "alt": "TailwindCSS"
+            }
+          },
+          {
+            "title": "Shadcn/UI",
+            "image": {
+              "src": "/imgs/logos/shadcn.svg",
+              "alt": "Shadcn/UI"
+            }
+          },
+          {
+            "title": "Vercel",
+            "image": {
+              "src": "/imgs/logos/vercel.svg",
+              "alt": "Vercel"
+            }
+          }
+        ]
+      },
+      "introduce": {
+        "block": "features-list",
+        "id": "introduce",
+        "title": "核心功能",
+        "label": "四大核心能力",
+        "description": "一站式 AI 内容生成平台，满足你所有创作需求。",
+        "items": [
+          {
+            "title": "AI 智能文案生成",
+            "description": "一键生成朋友圈文案、短视频脚本、电商详情页、公众号文章、种草笔记和产品介绍，快速解决不知道怎么写的问题。",
+            "icon": "RiNextjsFill"
+          },
+          {
+            "title": "AI 营销内容创作",
+            "description": "自动生成活动文案、推广话术、品牌宣传文案、转化型销售文案和私域运营话术，让营销内容更有吸引力。",
+            "icon": "RiDatabase2Line"
+          },
+          {
+            "title": "AI 提示词专业生成",
+            "description": "根据你的目标场景生成高质量提示词，适合对话式 AI、AI 绘画、AI 视频、办公自动化和内容生产流程。",
+            "icon": "RiCloudyFill"
+          },
+          {
+            "title": "多场景内容模板",
+            "description": "覆盖自媒体、电商、短视频、品牌推广、私域运营、职场办公等常见场景，减少从零开始写作的时间。",
+            "icon": "RiRobot2Line"
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "benefits": {
+        "block": "features-accordion",
+        "id": "benefits",
+        "title": "为什么选择我们",
+        "label": "产品优势",
+        "description": "专为创作者设计的 AI 工具，让内容创作更高效、更专业。",
+        "items": [
+          {
+            "title": "智能生成",
+            "description": "基于先进 AI 模型，理解你的需求，生成高质量、有创意的内容。",
+            "icon": "RiNextjsFill"
+          },
+          {
+            "title": "快速高效",
+            "description": "输入需求即可生成，几秒钟完成过去需要几小时的工作。",
+            "icon": "RiClapperboardAiLine"
+          },
+          {
+            "title": "持续优化",
+            "description": "不断更新的 AI 模型和模板，让你的内容始终保持领先。",
+            "icon": "RiCodeFill"
+          }
+        ]
+      },
+      "usage": {
+        "block": "features-step",
+        "id": "usage",
+        "title": "三步快速生成内容",
+        "description": "简单三步，快速生成高质量内容：",
+        "image_position": "left",
+        "text_align": "center",
+        "items": [
+          {
+            "title": "第一步：选择内容类型",
+            "description": "选择你想生成的内容，比如营销文案、社媒帖子、图片提示词或产品介绍。"
+          },
+          {
+            "title": "第二步：输入你的需求",
+            "description": "告诉 AI 你的主题、目标用户、语气风格和内容长度。"
+          },
+          {
+            "title": "第三步：生成并优化",
+            "description": "几秒钟获得初稿，并继续让 AI 帮你润色、扩写或改写。"
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "features": {
+        "id": "features",
+        "title": "更多功能",
+        "description": "丰富的功能，满足各种内容创作需求。",
+        "items": [
+          {
+            "title": "智能分析",
+            "description": "AI 分析内容质量，提供优化建议。",
+            "icon": "RiNextjsFill"
+          },
+          {
+            "title": "多格式输出",
+            "description": "支持多种格式导出，方便在不同平台使用。",
+            "icon": "RiKey2Fill"
+          },
+          {
+            "title": "历史记录",
+            "description": "保存所有生成记录，随时查看和复用。",
+            "icon": "RiDatabase2Line"
+          },
+          {
+            "title": "团队协作",
+            "description": "支持多人协作，共享内容和模板。",
+            "icon": "RiCloudy2Fill"
+          },
+          {
+            "title": "自定义模板",
+            "description": "创建和保存自定义模板，提高工作效率。",
+            "icon": "RiBarChart2Line"
+          },
+          {
+            "title": "批量生成",
+            "description": "一次生成多篇内容，适合批量运营需求。",
+            "icon": "RiRobot2Line"
+          }
+        ]
+      },
+      "stats": {
+        "id": "stats",
+        "title": "用户喜爱我的 AI 工具站",
+        "description": "简单易用，高效产出。",
+        "items": [
+          {
+            "title": "10000+",
+            "description": "内容生成"
+          },
+          {
+            "title": "98%",
+            "description": "用户满意度"
+          },
+          {
+            "title": "3x",
+            "description": "效率提升"
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "testimonials": {
+        "id": "testimonials",
+        "title": "用户评价",
+        "description": "听听创作者们如何评价我的 AI 工具站。",
+        "items": [
+          {
+            "name": "李明",
+            "role": "独立开发者",
+            "quote": "用这个工具写产品文案，效率提升了好几倍！以前写一篇要半天，现在几分钟就搞定。"
+          },
+          {
+            "name": "王芳",
+            "role": "自媒体创作者",
+            "quote": "社媒内容生成太好用了，再也不用为写什么发愁了。AI 帮我生成初稿，我只需要简单修改。"
+          },
+          {
+            "name": "张伟",
+            "role": "小团队负责人",
+            "quote": "我们团队用它来生成营销文案和产品描述，节省了大量时间，效果也很好。"
+          },
+          {
+            "name": "陈雪",
+            "role": "电商运营",
+            "quote": "提示词生成功能太棒了！帮我生成高质量的 AI 绘画提示词，图片质量提升很多。"
+          },
+          {
+            "name": "刘洋",
+            "role": "内容运营",
+            "quote": "内容优化功能很实用，帮我把平淡的文案变得更有吸引力，转化率明显提升。"
+          },
+          {
+            "name": "赵敏",
+            "role": "自由职业者",
+            "quote": "作为自由职业者，这个工具帮我快速响应客户需求，交付更快，收入也增加了。"
+          }
+        ]
+      },
+      "faq": {
+        "id": "faq",
+        "title": "常见问题",
+        "description": "还有其他问题？欢迎发送邮件联系我们。",
+        "items": [
+          {
+            "question": "我的 AI 工具站适合谁使用？",
+            "answer": "适合自媒体创作者、文案从业者、电商运营、小型创业团队，以及需要批量创作内容的职场人群。"
+          },
+          {
+            "question": "需要会写提示词吗？",
+            "answer": "不需要。你只要输入简单需求，系统会帮助你组织成更适合 AI 理解的内容指令。"
+          },
+          {
+            "question": "可以生成哪些类型的文案？",
+            "answer": "可以生成朋友圈文案、短视频脚本、电商详情页、公众号文章、活动推广文案、品牌宣传文案和专业提示词。"
+          },
+          {
+            "question": "生成内容可以直接使用吗？",
+            "answer": "生成内容可以作为初稿、灵感和效率工具使用。正式发布前，建议你结合实际场景进行检查和微调。"
+          },
+          {
+            "question": "是否支持付费套餐？",
+            "answer": "支持。你可以根据使用频率选择合适套餐，获得更多生成额度和高级功能。"
+          },
+          {
+            "question": "如何获得帮助？",
+            "answer": "你可以通过发送邮件到 zjutimes@gmail.com 联系我们，我们会尽快回复你的问题。"
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "开始使用我的 AI 工具站",
+        "description": "立即体验 AI 内容生成的强大能力，让创作更高效。",
+        "buttons": [
+          {
+            "title": "立即免费体验",
+            "url": "/pricing",
+            "target": "_self",
+            "icon": "Zap"
+          },
+          {
+            "title": "查看功能介绍",
+            "url": "/#features",
+            "target": "_self",
+            "variant": "outline",
+            "icon": "BookOpenText"
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "subscribe": {
+        "id": "subscribe",
+        "title": "订阅更新",
+        "description": "获取最新功能更新和使用技巧。",
+        "submit": {
+          "input": {
+            "placeholder": "输入邮箱"
+          },
+          "button": {
+            "title": "订阅"
+          },
+          "action": "/api/subscribe"
+        },
+        "className": "bg-muted"
+      }
+    }
+  }
+}
