@@ -1,10 +1,10 @@
 {
   "header": {
     "brand": {
-      "title": "ShipAny Two",
+      "title": "My AI Tools",
       "logo": {
         "src": "/logo.png",
-        "alt": "ShipAny Two"
+        "alt": "My AI Tools"
       },
       "url": "/admin"
     },

@@ -107,17 +107,17 @@
     "show_theme": true,
     "show_locale": true,
     "topbanner": {
-      "text": "This website is a demo site for the ShipAny template. To purchase the ShipAny template, please visit the <a href='https://shipany.ai/pricing' class='text-orange-300' target='_blank'>ShipAny website</a>"
+      "text": ""
     }
   },
   "footer": {
     "id": "footer",
     "brand": {
-      "title": "ShipAny Two",
-      "description": "ShipAny is a NextJS boilerplate for building AI SaaS startups. Ship Fast with a variety of templates and components.",
+      "title": "My AI Tools",
+      "description": "An AI content generation tool for creators and small teams. Generate copy, marketing content, and creative prompts quickly.",
       "logo": {
         "src": "/logo.png",
-        "alt": "ShipAny Two",
+        "alt": "My AI Tools",
         "width": 1024,
         "height": 1024
       },
@@ -126,16 +126,11 @@
     "nav": {
       "items": [
         {
-          "title": "About",
+          "title": "Product",
           "children": [
             {
               "title": "Features",
               "url": "/#features",
-              "target": "_self"
-            },
-            {
-              "title": "Showcases",
-              "url": "/showcases",
               "target": "_self"
             },
             {
@@ -166,22 +161,17 @@
           ]
         },
         {
-          "title": "Friends",
+          "title": "Legal",
           "children": [
             {
-              "title": "ShipAny",
-              "url": "https://shipany.ai",
-              "target": "_blank"
+              "title": "Privacy Policy",
+              "url": "/privacy-policy",
+              "target": "_self"
             },
             {
-              "title": "ThinkAny",
-              "url": "https://thinkany.ai",
-              "target": "_blank"
-            },
-            {
-              "title": "MCP.so",
-              "url": "https://mcp.so",
-              "target": "_blank"
+              "title": "Terms of Service",
+              "url": "/terms-of-service",
+              "target": "_self"
             }
           ]
         }

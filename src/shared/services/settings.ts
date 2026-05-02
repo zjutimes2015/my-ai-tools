@@ -820,6 +820,15 @@ export async function getSettings() {
       tab: 'ai',
     },
     {
+      name: 'deepseek_api_key',
+      title: 'DeepSeek API Key',
+      type: 'password',
+      placeholder: 'sk-xxx',
+      group: 'deepseek',
+      tip: 'DeepSeek API Key for text generation',
+      tab: 'ai',
+    },
+    {
       name: 'kie_api_key',
       title: 'Kie API Key',
       type: 'password',

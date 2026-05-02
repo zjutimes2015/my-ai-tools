@@ -1,5 +1,6 @@
 import {
   AIManager,
+  DeepSeekProvider,
   FalProvider,
   GeminiProvider,
   KieProvider,
@@ -44,6 +45,14 @@ export function getAIManagerWithConfigs(configs: Configs) {
     aiManager.addProvider(
       new GeminiProvider({
         apiKey: configs.gemini_api_key,
+      })
+    );
+  }
+
+  if (configs.deepseek_api_key) {
+    aiManager.addProvider(
+      new DeepSeekProvider({
+        apiKey: configs.deepseek_api_key,
       })
     );
   }
